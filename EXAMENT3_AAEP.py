@@ -122,7 +122,7 @@ def resolver_laberinto():
     recorrido = []
 
     imprimir_laberinto_original()
-    print("\n🔍 Iniciando búsqueda...\n")
+    print("\n Iniciando búsqueda...\n")
 
     exito = backtrack(inicio[0], inicio[1], 0, visitado, camino_actual, recorrido)
 
