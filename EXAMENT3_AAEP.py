@@ -44,7 +44,7 @@ def imprimir_camino_actual(caminado, puntos):
         print()
 
 def imprimir_pasos(camino_lista):
-    print("\n🧭 Paso a paso del camino exitoso:")
+    print("\n Paso a paso del camino exitoso:")
     paso = 1
     for x, y in camino_lista:
         print(f"\nPaso {paso}: ({x},{y})")
